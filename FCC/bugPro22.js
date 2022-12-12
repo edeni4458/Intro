@@ -1,0 +1,1 @@
+console.log("Christ is Lord; He will return.");

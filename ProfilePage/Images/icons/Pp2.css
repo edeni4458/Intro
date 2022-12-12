@@ -1,0 +1,246 @@
+.navBar {
+    background: #000;
+    height: 80px;
+}
+
+.navCon {
+    background-color: black;
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navRig {
+    height: 100%;
+    background-color: black;
+    margin: 0px 10px;
+    display: flex;
+}
+
+.prof {
+    display: flex;
+    align-items: center;
+    color: whitesmoke;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+}
+
+.nav-links>a {
+    margin: 0px 10px;
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.navLef {
+    height: 100%;
+
+    background-color: black;
+    margin: 0px 10px;
+    align-items: center;
+    display: flex;
+}
+
+.btn {
+    color: azure;
+    background-color: cornflowerblue;
+    padding: 5px;
+    width: 75px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    background-color: rgb(9, 255, 0);
+    width: 80%;
+    height: 600px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.containerL {
+    background-color: whitesmoke;
+    flex: 2;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.userInfo {
+    background-color: whitesmoke;
+    flex: 2;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    border: gainsboro 5px solid;
+
+
+}
+
+.uppr {
+    background-color: rgb(50, 182, 205);
+    flex: 1;
+    padding: 0px 20px;
+}
+
+#userlogo {
+    border-radius: 50%;
+    width: 100px;
+    position: relative;
+    top: 50px;
+}
+
+.botm {
+    background-color: whitesmoke;
+    flex: 3;
+    padding: 30px 20px 0px 20px;
+}
+
+.padDwn {
+    margin: 12px 0px;
+}
+
+.ediProf {
+    display: flex;
+    align-items: center;
+}
+
+#gearIcon {
+    height: 25px;
+
+}
+
+.usrLoc {
+    display: flex;
+    align-items: center;
+}
+
+#maPin {
+    height: 40px;
+    margin-right: 20px;
+}
+
+
+.eduInfo {
+    background-color: whitesmoke;
+    flex: 1;
+    margin: 10px;
+    border: gainsboro 5px solid;
+
+}
+
+.eduCa {
+    padding: 4px 20px;
+    background-color: rgb(56, 55, 55);
+    color: whitesmoke;
+}
+
+.margDwn {
+    margin: 0px;
+}
+
+.margDwnA {
+    background-color: whitesmoke;
+}
+
+
+
+
+.containerR {
+    background-color: whitesmoke;
+    height: 100%;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.conReq {
+    background-color: whitesmoke;
+    flex: 1;
+    margin: 10px;
+    border: gainsboro 5px solid;
+}
+
+
+
+.conBar {
+    background: rgb(56, 55, 55);
+    color: whitesmoke;
+
+}
+
+.barTi {
+    display: flex;
+    align-items: flex-end;
+
+}
+
+.conTit {
+    background-color: grey;
+    border:rgb(56, 55, 55) 10px solid;
+    font-size: x-large;
+    border-radius: 40%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.fontDwn {
+    font-size: larger;
+    align-items: flex-end;
+}
+
+.imgFr {
+    align-items: center;
+    margin-top: 1%;
+    display: flex;
+
+
+
+}
+
+.imDwn {
+    border-radius: 50%;
+    border: #000 2px solid;
+    width: 20%;
+    align-items: center;
+}
+
+
+.imgFr {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.iconZ {
+    width: 10%;
+    height: 10%;
+}
+
+/* 2nd Bottom Half */
+.urConec {
+    background-color: whitesmoke;
+    flex: 2;
+    margin: 10px;
+    border: gainsboro 5px solid;
+}
+
+.ancDwn{
+    display: flex;
+    align-items: center;
+    border-top: gainsboro 5px solid;
+    margin: 5%;
+    justify-content: flex-start;
+}
+#colBot {
+font-family: Arial, Helvetica, sans-serif;
+    align-items: stretch;
+
+}
+

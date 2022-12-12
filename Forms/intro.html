@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head><h1>Nov.8.22 Elections</h1>
+<body>
+<!-- the below input is for making text, number and password inputs -->
+    <div>
+        <input type="text" name="first_name">
+    </div>
+    <div>
+        <input type="number" name="age">
+    </div>
+    <div>
+    <input type="password" name="password">
+    </div>
+    <div>
+    <input type="date" name="dob">
+    </div>
+    <div><input type="color" name="text_color">
+    </div>
+<!-- the below input and label are for making a specific selection -->
+    <input type="radio" name="font" value="bold" id="bold">
+    <label for="bold"><strong>Bold</strong></label>
+    <input type="radio" name="font" value="normal" id="normal">
+    <label for="normal">Normal</label>
+<!-- the below input is to assign checkboxes -->
+    <input type="checkbox" name="accept" id="accept">
+    <label for="accept">I agree</label>
+        <div>
+<!-- the below text is for a textbox for typing-->
+    <textarea name="comment" cols="20" rows="3"></textarea>
+        </div>
+<!-- the below code is making selections from a list -->
+    <select name="snack">
+        <option>Almonds</option>
+        <option>Cheese and Crackers</option>
+        <option>Pita and Hummus</option>
+        <option>Pears</option>
+    </select>
+<!-- Below is an example of a form -->
+    <form action="/process" method="post">
+        <div>
+            <label>Name: </label>
+            <input type="text" name="name" 
+            placeholder="Your name..." >
+        </div>
+        <div>
+            <label>Email: </label>
+            <input type="text" name="email" 
+            placeholder="Your email..." >
+        </div>
+        <div>
+            <input type="checkbox" name="offers" 
+            id="offers" checked >
+            <label for="offers">I would like 
+            to receive email offers!</label>
+        </div>
+        <input type="submit" value="Sign Up!" >
+    </form>
+
+
+</body>
+</html>

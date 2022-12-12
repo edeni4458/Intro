@@ -1,0 +1,35 @@
+
+.row{
+    display: flex;
+    color: black;
+    background-color: azure;
+    justify-content: space-around;
+}
+
+.col{
+    flex:1;
+    background-color: cornflowerblue;
+    padding: 5px;
+    width: 45px;
+    height: 50px;
+    margin: 20px;
+
+}
+
+.col-2{
+    flex: 2;
+    background-color: cornflowerblue;
+    padding: 5px;
+    width: 45px;
+    height: 50px;
+    margin: 20px;
+}
+
+.col-3{
+    flex: 3;
+    background-color: cornflowerblue;
+    padding: 5px;
+    width: 45px;
+    height: 50px;
+    margin: 20px;
+}

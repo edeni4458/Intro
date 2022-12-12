@@ -1,0 +1,122 @@
+
+
+.navBar {
+    height: 80px;
+}
+
+.navCon {
+    background-color: lightslategray;
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.navRig {
+    height: 100%;
+    background-color: lightslategray;
+    margin: 0px 10px;
+    display: flex;
+    align-items: center;
+
+}
+
+.prof {
+    display: flex;
+    align-items: center;
+    color: whitesmoke;
+    padding-right: 30%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+}
+
+.nav-links>a {
+    margin: 0px 10px;
+    color: whitesmoke;
+}
+
+.navLef {
+    height: 100%;
+    background-color: lightslategrey;
+    margin: 0px 10px;
+    align-items: center;
+    display: flex;
+}
+
+.btn {
+    color: azure;
+    background-color: cornflowerblue;
+    padding: 5px;
+    width: 75px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: black 2px 2px 0px;
+}
+/* Start of the body of Page */
+
+.container{
+    background-color:whitesmoke;
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.lefts{
+    
+
+}
+.ninjaCard{
+    display: flex;
+    border: black 4px solid;
+    margin: 5px 0px
+
+
+}
+.bigNij{
+    padding: 10px
+
+}
+
+.styH{
+
+}
+
+.bt{
+    box-shadow: 2px 2px black;
+    background-color: gold;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.textNij{
+    display: flex;
+    align-items: center;
+    padding: 25px;
+}
+
+/* Right SIDE!!! */
+
+
+.definCar{
+    border:  black 3px solid;
+    margin: 5px 0px;
+    padding: 10px
+}
+
+.botBt{
+    box-shadow: 2px 2px black;
+    background-color: lightgreen;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+
+}

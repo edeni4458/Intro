@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: gray;
+    height: 70px;
+    width: 100%;
+    color: azure;
+}
+
+.navbor{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+#navborR{
+    display: flex;
+    justify-content: space-around;
+    width: 400px;
+}
+
+h1{
+    border-color: black;
+    border-width: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+
+}
+
+
+.nav-links{
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+
+    color: azure;
+}
+
+#row{
+    color: azure;
+    text-decoration: none;
+    }
+
+.btn{
+    box-shadow: 5px 5px 10px black;
+    background-color: cornflowerblue;
+    border-color: rgb(0, 0, 0);
+    color: azure;
+    padding: 5px;
+}
+
+.active{
+    font-weight: bold;
+}

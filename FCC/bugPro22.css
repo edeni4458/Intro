@@ -1,0 +1,150 @@
+*{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+.topHead{
+    width: 100%;
+    text-indent: 3%;
+}
+.midHed{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    height: 75px;
+    width: 70%;
+}
+
+.mainComn{
+    display: flex;
+    width: 100%;
+}
+
+
+/*  beg of left S */
+.leftS{
+    display: flex;
+    text-align: center;
+    background-color:lightgray;
+    height: 360px;
+    margin-right: 10px;
+}
+.numRg{
+    background-color: lightgray;
+    height: auto;
+    width: 65px;
+    margin-right: 50px;
+    padding-top: 15px;
+}
+#padTp{
+    padding-top: 50px;
+}
+#indentR{
+    text-align: end;
+}
+.line21{
+    padding-top: 137px;
+}
+.giveAvs{
+    background-color: aquamarine;
+    width: 100px;
+    height: 35px;
+    margin-right: 50px;
+}
+#vioT1{
+    background-color: blueviolet;
+    height: 5px;
+}
+#navyBlu1{
+    background-color: darkcyan;
+    height: 5px;
+    text-align: center;
+}
+#junGr1{
+    background-color: darkolivegreen;
+    height: 5px;
+}
+#drkTorq1{
+    background-color: rgb(46, 85, 85);
+    height: 5px;
+}
+#orange1{
+    background-color: orange;
+    height: 10px;
+}
+#red1{
+    background-color: red;
+    height: 10px;
+}
+#purp1{
+    background-color: purple;
+    height: auto;
+}
+#liBlu1{
+    background-color: cornflowerblue;
+    height: auto;
+}
+#liGre1{
+    background-color: greenyellow;
+    height: 24px;
+}
+#aqA1{
+    background-color: darkcyan;
+    height: 80px;
+    border-bottom: white 1px solid;
+}
+.cetrMe{
+    padding-right: 50px;
+}
+
+.line22{
+    padding-top: 70px;
+}
+.line22 > #aqA1{
+    padding-top: 25px;
+}
+.line22 > #liBlu1{
+    height: 35px;
+    padding-top: 25px;
+}
+.giveAvS2{
+    background-color: greenyellow;
+    width: 100px;
+    height: 35px;
+    margin-right: 50px;
+}
+
+
+/*  beg of right S */
+.rightS{
+    display: flex;
+    text-align: center;
+    background-color:lightgray;
+    height: 360px;
+    color: azure;
+    
+}
+.numLin{
+    color: black;
+}
+.numPer{
+    background-color: lightgray;
+    height: 55px;
+    width: 65px;
+    margin-right: 50px;
+}
+.givPer{
+    background-color: lightgreen;
+    width: 100px;
+    height: 35px;
+    margin-right: 50px;
+}
+.givPer2{
+    background-color: lightsalmon;
+    width: 100px;
+    height: 35px;
+    margin-right: 50px;
+}
+#pic1{
+    height: 75px;
+    width: auto;
+    margin-top: 10px;
+}

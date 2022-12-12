@@ -1,0 +1,33 @@
+.header > img {
+    height: 50px;
+}
+
+h1{
+    color: blue;
+}
+
+.quote p {
+    color: darkslategrey;
+    font-style: italic;
+}
+
+.header > img {
+    height: 50px;
+}
+/*"Below is how one customizes a sumbit button"*/
+input {
+    padding: 5px;
+    border-color: rebeccapurple;
+}
+input[type="text"] {
+    border: none;
+    border-bottom: 2px solid rebeccapurple;
+}
+input[type="submit"] {
+    color: white;
+    background-color: rebeccapurple;
+}
+
+.class > * {
+    color:brown
+ }
