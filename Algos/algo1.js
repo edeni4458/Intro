@@ -1,17 +1,34 @@
-var message = "Jesus Christ is Lord";
-console.log(message)
+// var message = "Jesus Christ is Lord";
+// console.log(message)
 
-var a = 25;
-a = a - 13;
-console.log(a/2);
-    
-a = "hello";
-console.log(a + " hello");
+// var a = 25;
+// a = a - 13;
+// console.log(a / 2);
 
-// next prediction
-for(var i=0; i<10; i++) {
-    console.log(i);
-    i = i + 3; 
+// a = "hello";
+// console.log(a + " hello");
+
+// // next prediction
+// for (var i = 0; i <= 10; i++) {
+//     console.log(i);
+//     i = i + 3; 
+// }
+
+// console.log("outside of the loop " + i);
+
+
+
+function getTotal(arrayOfNumbers) {
+
+    var sum = arrayOfNumbers[0];
+
+    for (var i = 0; i < arrayOfNumbers.length; i++) {
+        sum += arrayOfNumbers[i];
+        console.log("the current sum is: " + sum);
+    }
+
+    console.log("the total is: " + sum);
+
 }
-    
-console.log("outside of the loop " + i);
+
+getTotal([1, 3, 5]);
