@@ -1,0 +1,28 @@
+.container{
+    background-color: yellow;
+    width: 50%;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.leftS{
+    width: 32%;
+    height: 100%;
+}
+
+.rightS{
+    width:57%;
+    height:100%;
+}
+
+.square1{
+    background-color: royalblue;
+    width: 90%;
+    height: 40%;
+    margin-bottom: 100px;
+}
+
+
+
