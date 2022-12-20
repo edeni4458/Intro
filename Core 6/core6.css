@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+
+
+.navBar{
+    height: 40px;
+    min-height: 40px;
+    width: 50%;
+    min-width: 50%;
+    background-color:lightgray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-bottom: 10px 10px lightgray;
+    margin-bottom: 40px;
+}
+.navBar > button{
+    background-color: rgb(81,144,233);
+    color: white;
+    font-weight: 200;
+}
+
+.container{
+    width: 54%;
+    display: flex;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    gap: 10px;
+}
+.indexCard{
+    border: 3px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+    padding: 5px;
+    width: 20em;
+    height: 8em;
+}
+.leftI > h1{
+    font-weight: 300;
+}
+.leftI{
+    margin-right: 20px;
+    text-align: center;
+}
+.leftI > h1{
+    font-weight: 300;
+}
+.smalPl{
+    font-size: smaller;
+    margin-bottom: 10px;
+
+}
+.leftI > h5{
+    font-style: italic;
+    font-size: medium;
+}
+button{
+    background-color: rgb(255,217,102);
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    box-shadow: 2px 2px black;
+    font-weight: 600;
+}
+/* right side */
+
+.rightS{
+    border: 3px solid black;
+    height: 7em;
+    width: 100em;
+    margin-left: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.dojoYou{
+    margin-top: 10px;
+}
+.addDef > button{
+    margin-top: 10px;
+    background-color: rgb(147,196,125);
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+
+}
